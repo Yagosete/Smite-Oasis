@@ -1,0 +1,13 @@
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 610px) {
+    .boxContainer {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,378 @@
+.playerContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.dFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.playerMatchBox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.playerBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+.friendsCont {
+    overflow: auto;
+    max-height: 1035px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+
+.statCont {
+    width: 30%;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.friend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    overflow: auto;
+}
+
+.friend:last-child {
+    border: none;
+}
+
+.friendImage {
+    height: 50px;
+    width: 50px;
+}
+
+.friendBox {
+    width: 20%;
+}
+
+.friendTitle {
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.friendName {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.friendName:hover {
+    color: grey;
+}
+
+.playerNamePage {
+    color: white;
+    padding-top: 10px;
+}
+
+.clanTag {
+    padding-top: 10px;
+    padding-right: 5px;
+    color: rgba(255, 255, 255, 0.671);
+    font-style: italic;
+}
+
+.imgIcon {
+    height: auto;
+    width: 180px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.pairCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    padding: 17px;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+}
+
+.pairCont:last-child {
+    border: none;
+}
+
+.key {
+    color: rgba(255, 255, 255, 0.507);
+    padding-right: 7.5px;
+}
+
+.value {
+    color: white;
+}
+
+.matchThird {
+    width: 30%;
+}
+
+.matchSecond {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.matchesTitle {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.matchBox {
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.matchCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    text-decoration: none;
+    color: white;
+}
+
+.matchCont:last-child {
+    border: none;
+}
+
+.matchCont:hover {
+    filter: brightness(1.5)
+}
+
+.matchImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30%;
+}
+
+.matchGodDate {
+    padding-top: 10px;
+}
+
+.godSmallImage {
+    height: 50px;
+    margin: 10px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.godName {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.mapName {
+    white-space: nowrap;
+    text-align: right;
+    font-size: 20px;
+    width: 100%;
+}
+
+.matchTime {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.matchDate {
+    color: rgba(255, 255, 255, 0.671);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.pad {
+    padding-top: 10px
+}
+
+.KDA {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.winLoss {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.loadMoreCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.loadMore {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.loadMore:hover {
+    text-decoration: underline;
+}
+
+.fav {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.fav:hover {
+    text-decoration: underline;
+} 
+
+.errorBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.errorCenter {
+    margin-top: 50px;
+}
+
+.errorText {
+    color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 5px;
+}
+
+.giveTJ {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .playerContainer {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .friendBox {
+        width: auto;
+    }
+
+    .friendName {
+        font-size: 15px;
+    }
+
+    .key, .value {
+        font-size: 15px;
+    }
+
+    .imgIcon {
+        width: 150px;
+    }
+    
+    .clanTag, .playerNamePage {
+        font-size: 14px;
+    }
+    
+    .picture {
+        width: 35% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .playerContainer {
+        flex-direction: column;
+    }
+
+    .playerMatchBox {
+        width: 100%;
+    }
+
+    .picture {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .playerBox {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .oneThird {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .statCont {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;  
+        height: auto;
+    }
+
+    .godName {
+        font-size: 13px;
+    }
+
+    .matchDate {
+        font-size: 10px;
+    }
+
+    .mapName {
+        font-size: 15px;
+    }
+
+    .matchImage {
+        width: 40%;
+    }
+
+    .godSmallImage {
+        height: 35px;
+    }
+
+    .KDA, .winLoss {
+        font-size: 13px;
+    }
+    
+    .pairCont {
+        padding: 10px;
+    }
+}

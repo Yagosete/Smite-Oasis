@@ -1,0 +1,175 @@
+.HeaderCont {
+    width: 100%;
+    color: white;
+    overflow: auto;
+}
+
+.playerTop {
+    width: 100%;
+}
+
+.placeholder {
+    height: 80px;
+}
+
+.playerCont {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.playerIcon {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.player {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+.player:hover {
+    color: grey;
+}
+
+.level {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    text-align: right;
+}
+
+.linkCont {
+    text-align: right;
+}
+
+.mainTitleCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainTitle {
+    font-family: 'Viga', sans-serif;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.searchCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botMar {
+    padding-bottom: 40px;
+}
+
+.userInput {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: black;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+    outline: 0;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.userInput:focus {
+    background-color: rgb(36, 36, 36);
+}
+
+.userSubmit {
+    background-color: black;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    padding: 10px
+}
+
+.userSubmit:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+.change {
+    cursor: pointer;
+}
+
+.change:hover {
+    color: white;
+}
+
+.lightning {
+    height: 50px;
+    width: auto;
+}
+
+.bottomBorder {
+    margin-bottom: 50px;
+    width: 90%;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.dFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 650px) {
+    .userInput {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mainTitle {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .formFlex {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mainTitle {
+        padding-right: 10px;
+        padding-left: 20px;
+    }
+    
+    .bottomBorder {
+        margin-bottom: 10px;
+    }
+}

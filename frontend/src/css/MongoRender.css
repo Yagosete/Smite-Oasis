@@ -1,0 +1,141 @@
+.cFlex {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.subTitle {
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgba(124, 124, 124, 0.815);
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.listCont {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.listBox {
+    border-bottom: 1px solid rgba(187, 187, 187, 0.411);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listBox:last-child {
+    border-bottom: none;
+}
+
+.leftBox {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.godImage {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(34, 34, 34), rgba(255, 0, 0, 0.582), orange, rgba(0, 128, 0, 0.575), rgba(111, 0, 255, 0.363), rgba(255, 255, 255, 0.637)) 5;
+}
+
+.playerName {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.playerName:hover {
+    color: grey;
+}
+
+.underPlayer {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.mongoCount {
+    margin: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+}
+
+.matchLink {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.matchLink:hover {
+    color: grey;
+}
+
+.formFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+    .godImage {
+        height: 40px;
+    }
+    
+    .userInput {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .mongoCount {
+        font-size: 15px;
+    }
+
+    .underPlayer, .matchLink {
+        white-space: nowrap;
+    }
+
+    .title {
+        padding-top: 7px;
+        font-size: 17px;
+        padding-right: 5px;
+    }
+
+    .subTitle {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .cFlex {
+        width: 100%;
+    }
+}
